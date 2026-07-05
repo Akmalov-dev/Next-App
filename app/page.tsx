@@ -1,7 +1,12 @@
-  import Image from 'next/image'
+import React from 'react'
+import Users from '../app/users/page'
 
-export default function Home() {
+const page = () => {
   return (
-   <main>hello world</main>
+    <div>
+      <Users/>
+    </div>
   )
 }
+
+export default page
